@@ -1,0 +1,35 @@
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# --- Settings / validation ---
+pydantic==2.9.2
+pydantic-settings==2.5.2
+email-validator==2.2.0
+
+# --- Auth ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# --- Database ---
+sqlalchemy==2.0.35
+
+# --- ML / CV ---
+tensorflow==2.17.0
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+
+# --- Reports ---
+reportlab==4.2.5
+
+# --- Dataset prep (optional, only needed for training) ---
+kaggle==1.6.17
+
+# --- Testing ---
+pytest==8.3.3
+httpx==0.27.2
